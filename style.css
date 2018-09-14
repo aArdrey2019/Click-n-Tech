@@ -45,12 +45,15 @@ body{
 .form button:hover,.form button:active{
   background: #669ef9;
 }
-.form.message{
+.form .message{
   margin: 15px 0 0;
-  color: black;
+  color:black;
   font-size: 14px;
 }
-.form.message a{
-  color: #a3a3a3;
+.form .message a{
+  color: #3a5dea;
   text-decoration: none;
+}
+.form .register-form{
+  display: none;
 }
