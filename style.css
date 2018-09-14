@@ -1,0 +1,56 @@
+body{
+  background-image: url(Backdrop.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.login-page{
+  width:360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background: #bdbdbf;
+  max-width: 0 360px 100px;
+  margin: auto;
+  padding:45px;
+  text-align: center;
+}
+
+.form input{
+  font-family: times-new-roman;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form button{
+  font-family: times-new-roman;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  background-color: #3a5dea;
+  cursor: pointer;
+}
+.form button:hover,.form button:active{
+  background: #669ef9;
+}
+.form.message{
+  margin: 15px 0 0;
+  color: black;
+  font-size: 14px;
+}
+.form.message a{
+  color: #a3a3a3;
+  text-decoration: none;
+}
