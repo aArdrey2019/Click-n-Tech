@@ -6,14 +6,23 @@
   font-size: 3vw;
   background-color: #700707;
   float: right;
+  color: white;
 }
 .header-image {
   position: top;
   background-color: #700707;
 }
 
+aside{
+  background: #700707;
+  width: 25%;
+  height: 500px;
+  font-size: 3vw;
+  float:left;
+}
+
 footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -21,11 +30,18 @@ footer {
   color: white;
   padding: 1%;
   font-size: 1.5vw;
+  float: left;
+  border-top-style: solid;
+  border-color: black;
 }
 
 nav{
+  text-align: center;
+  background-color: #700707;
   float: right;
   color: white;
+  width: 75%;
+  font-size: 2vw;
 }
 nav a{
   text-decoration: none;
@@ -36,6 +52,10 @@ nav a:hover{
   font-size: 120%;
 }
 
-body{
-  background-color: gray;
+
+.main-body{
+  background-color: grey;
+  width: 75%;
+  height: 500px;
+  float: right;
 }
