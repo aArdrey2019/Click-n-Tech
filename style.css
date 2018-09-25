@@ -1,59 +1,41 @@
-body{
-  background-image: url(Backdrop.jpeg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-.login-page{
-  width:360px;
-  padding: 10% 0 0;
-  margin: auto;
-}
-.form{
-  position: relative;
-  z-index: 1;
-  background: #bdbdbf;
-  max-width: 0 360px 100px;
-  margin: auto;
-  padding:45px;
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.form input{
-  font-family: times-new-roman;
-  width: 100%;
-  border: 0;
-  margin: 0 0 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
+.header{
+  font-size: 3vw;
+  background-color: #700707;
+  float: right;
+}
+.header-image {
+  position: top;
+  background-color: #700707;
 }
 
-.form button{
-  font-family: times-new-roman;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  border: 0;
-  margin: 0 0 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
-  background-color: #3a5dea;
-  cursor: pointer;
+  background-color: #700707;
+  color: white;
+  padding: 1%;
+  font-size: 1.5vw;
 }
-.form button:hover,.form button:active{
-  background: #669ef9;
+
+nav{
+  float: right;
+  color: white;
 }
-.form .message{
-  margin: 15px 0 0;
-  color:black;
-  font-size: 14px;
-}
-.form .message a{
-  color: #3a5dea;
+nav a{
   text-decoration: none;
+  color: white;
 }
-.form .register-form{
-  display: none;
+nav a:hover{
+  color: black;
+  font-size: 120%;
+}
+
+body{
+  background-color: gray;
 }
