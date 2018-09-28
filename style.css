@@ -1,61 +1,102 @@
 * {
   margin: 0;
 }
-
 .header{
   font-size: 3vw;
-  background-color: #700707;
   float: right;
   color: white;
+  font-family:'Fugaz One';
+  text-indent: -25%;
+  font-style: italic;
+    padding-top: 8%;
 }
 .header-image {
   position: top;
-  background-color: #700707;
+  background-image: linear-gradient(to top,#333dce,#000cba);
+  border-bottom-style: solid;
+  border-color: white;
 }
-
+.login{
+  float: right;
+  background-color: #262626;
+  padding-top: 1%;
+  padding-bottom:1%;
+  width: 80%;
+  font-family: 'Anton';
+}
+.login a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Anton';
+}
+button{
+  background-color: #353535;
+  border-style: none;
+  color: white;
+  font-family: 'Anton';
+}
+button:hover{
+  background-color:
+}
+.login a:hover{
+  background-color: #353535;
+  border-radius: 5px;
+}
+.main-body{
+  padding-top: 1%;
+  background-color: #cecece;
+  width: 78%;
+  height: 500px;
+  float: right;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 2vw;
+  font-family: 'Anton';
+}
 aside{
-  background: #700707;
-  width: 25%;
+  padding-top: 1%;
+  background-image: linear-gradient(#262626,#353535,#262626);
+  width: 20%;
   height: 500px;
   font-size: 3vw;
   float:left;
+  font-family: 'Anton';
 }
-
-footer {
-  position: static;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #700707;
-  color: white;
-  padding: 1%;
-  font-size: 1.5vw;
-  float: left;
-  border-top-style: solid;
-  border-color: black;
+aside a{
+    padding-left: 10px;
+    font-family: 'Anton';
 }
-
 nav{
-  text-align: center;
-  background-color: #700707;
-  float: right;
   color: white;
-  width: 75%;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  line-height: 250%;
+  font-family: 'Anton';
 }
 nav a{
   text-decoration: none;
   color: white;
+  font-family: 'Anton';
 }
 nav a:hover{
-  color: black;
+  color: white;
   font-size: 120%;
+  border-left-style: solid;
+  border-color: #000cba;
+  border-left-width: thick;
+  padding: 1px;
+  text-indent: 100px;
 }
-
-
-.main-body{
-  background-color: grey;
-  width: 75%;
-  height: 500px;
-  float: right;
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 98%;
+  background-color: #000cba;
+  color: white;
+  padding: 1%;
+  font-size: 10px;
+  float: left;
+  border-top-style: solid;
+  border-color: white;
+  line-height: 150%;
 }

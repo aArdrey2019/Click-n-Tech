@@ -1,4 +1,6 @@
 # Click-n-Tech
 My Website For Web Design
-
-Name: Ashton Ardrey
+  It is a basic forum thing
+With planed features such as
+login posting Poupular system
+etc.
