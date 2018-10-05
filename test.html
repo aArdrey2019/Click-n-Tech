@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang  = "en">
 <head>
+  <title>Click'n'Tech</title>
+  <meta charset = "utf-8">
+  <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+  <meta name = "description" content = "Small community of people into tech new and old, all avaliable at a click!">
+  <meta name = "keywords" content = "Small, tech, new, old, retro, easy, gaming, PC, console">
 </head>
 <body>
   <form action="action_page.php">
   <div class="container">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" required>
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
+    <input type="password" placeholder="Password" name="psw" required>
     <button type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
+      <span class="psw">Forgot <a href="forgot.html">password?</a></span>
     </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="lost.html">password?</a></span>
   </div>
 </form>
 </body>

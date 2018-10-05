@@ -25,6 +25,11 @@ body{
   padding-top: 1%;
   padding-bottom:1%;
   font-family: 'Anton';
+  font-size: 1.5vh;
+  box-shadow: 10px 10px 15px gray;
+  position: sticky;
+  width: 80%;
+  text-align:right;
 }
 .login a{
   color: white;
@@ -38,35 +43,39 @@ body{
 }
 input{
   font-family: 'Anton';
+  font-size: 1.5vh;
 }
 button{
   background-color: #353535;
   border-style: none;
   color: white;
   font-family: 'Anton';
+  font-size: 1.5vh;
 }
 button:hover{
-  background-color:
+  background-color: #262626;
 }
 .main-body{
   padding-top: 1%;
-  background-color: #cecece;
+  background-color: white;
   width: 78%;
-  height: 500px;
+  height: 700px;
   float: right;
   padding-left: 1%;
   padding-right: 1%;
-  font-size: 2vw;
+  font-size: calc(2vw+2vh);
   font-family: 'Anton';
+  padding-bottom: 1%;
 }
 aside{
   padding-top: 1%;
   background-image: linear-gradient(#262626,#353535,#262626);
   width: 20%;
-  height: 500px;
+  height: 700px;
+  float: left;
   font-size: 3vw;
-  float:left;
   font-family: 'Anton';
+  left: 15%
 }
 aside a{
     padding-left: 10px;
@@ -93,7 +102,7 @@ nav a:hover{
   text-indent: 100px;
 }
 footer {
-  position: static;
+  position: sticky;
   bottom: 0;
   left: 0;
   width: 98%;
