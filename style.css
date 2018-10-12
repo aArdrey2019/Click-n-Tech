@@ -5,18 +5,28 @@ body{
   background-color: #262626;
 }
 .header{
-  font-size: 3vw;
+  font-size: 3.3vw;
   float: right;
   color: white;
   font-family:'Fugaz One';
   text-indent: -25%;
   font-style: italic;
-    padding-top: 8%;
+  padding-top: 8%;
+}
+@keyframes colorchange {
+  0% {background-color: #0b3fdd;}
+  50% {background-color: #0a1472;}
+  100% {background-color: #0b3fdd;}
 }
 .header-image {
   position: top;
-  background-image: linear-gradient(to top,#333dce,#000cba);
+  background-image: blue
   border-bottom-style: solid;
+  border-color: white;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-bottom: solid;
   border-color: white;
 }
 .login{
@@ -26,10 +36,13 @@ body{
   padding-bottom:1%;
   font-family: 'Anton';
   font-size: 1.5vh;
-  box-shadow: 10px 10px 15px gray;
+  -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 10px 10px rgba(182, 182, 182, 0.75);
   position: sticky;
   width: 80%;
   text-align:right;
+  z-index: -1;
 }
 .login a{
   color: white;
@@ -66,6 +79,7 @@ button:hover{
   font-size: calc(2vw+2vh);
   font-family: 'Anton';
   padding-bottom: 1%;
+  z-index: -2;
 }
 aside{
   padding-top: 1%;
@@ -75,7 +89,8 @@ aside{
   float: left;
   font-size: 3vw;
   font-family: 'Anton';
-  left: 15%
+  left: 15%;
+  z-index: 1;
 }
 aside a{
     padding-left: 10px;
@@ -114,4 +129,24 @@ footer {
   border-top-style: solid;
   border-color: white;
   line-height: 150%;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: colorchange;
+}
+.tooltip{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext{
+  visibility: hidden;
+  background: gray;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover{
+  visibility: visible;
 }
